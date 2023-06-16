@@ -1,0 +1,79 @@
+  *{
+    margin-left: 0;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    cursor:pointer; 
+    
+    background-color: white;
+    }
+body{
+    overflow: auto;
+    text-align: side;
+}
+
+img{
+
+    border-top: 10px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom: 5px;
+    width: 600px;
+    height: 400px;
+     float: right;
+     padding-top: 40px;
+
+}
+
+div{
+width: 100px;
+height: 450px;
+float: right;
+border-spacing: 20px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(35, 33, 33);
+
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: calc(30px 0 30px);
+
+
+
+   }
+
+.box{
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left:40px;
+    margin-right: 40px;
+    background-color: orangered;
+    box-shadow: 0 3px whitesmoke;
+    flex-grow: calc(10px 10px );
+    transform-box: border-box;
+    image-orientation: from-image;
+}
+
+p{
+    color: rgb(42, 39, 39);
+    font-size: medium;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+
+}
+.material-icons{
+    padding-left: 10px;
+
+}
